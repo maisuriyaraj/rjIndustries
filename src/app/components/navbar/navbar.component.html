@@ -1,0 +1,18 @@
+<nav class="navbar navbar-expand-lg" id="nav">
+  <div class="container-fluid">
+    <a class="navbar-brand logo" routerLink="/" id="brand">RJ INDUSTRIES</a>
+    <button class="navbar-toggler" type="button" id="toggle" (click)="openNav()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="ul">
+        <li class="nav-item" id="logo"(click)="closeNav()" ><a class="navbar-brand logo mobile-view p-3" routerLink="/" id="brand">RJ INDUSTRIES</a></li>
+        <li class="nav-item" (click)="closeNav()" ><a class="nav-link p-3" routerLink="/" routerLinkActive="activex" [routerLinkActiveOptions]="{exact:true}">Home</a></li>
+        <li class="nav-item" (click)="closeNav()" ><a class="nav-link p-3" routerLink="RJ/services" routerLinkActive="activex">Services</a></li>
+        <li class="nav-item" (click)="closeNav()" ><a class="nav-link p-3" routerLink="RJ/contact"routerLinkActive="activex" >Contact me</a></li> 
+        <li class="nav-item" (click)="closeNav()" ><a class="nav-link p-3" routerLink="RJ/portfolio" routerLinkActive="activex">Portfolio</a></li>
+        <li class="nav-item" (click)="closeNav()" ><a class="nav-link p-3" routerLink="RJ/about" routerLinkActive="activex">About</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:700&display=swap');
+img{
+    max-width: 100%;
+}
+video{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+
+}
+.card{
+    background-color: #151515;
+    border-radius: 10px;
+    padding: 10px;
+}
+.card:hover{
+    border: 1px solid white;
+    transition: 0.4s;
+}
+.images{
+    position: relative;
+  max-width: 100%;
+    height: auto;
+    float: left;
+   }
+.images div{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: black;
+    color: white;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+   }
+.images:hover{
+    cursor: pointer;
+}
+.images:hover div{
+    /* width: 150px; */
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7; 
+}
+.col-md-12{
+    background-color: #29293f;
+    border: 0.4px solid white;
+    border-radius: 10px;
+}
+.p{
+   font-size: 14px;
+}
+.btn-more{
+    background-color: #151515;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;    
+}
+
+.btn-view-video{
+    border:1px solid white;
+    border-radius: 8px;
+    background-color: #151515;
+    color: white;
+    padding: 10px 12px;
+}

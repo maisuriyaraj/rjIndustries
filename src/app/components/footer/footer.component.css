@@ -1,0 +1,19 @@
+
+ul li a{
+    color:white;
+    font-size: 20px;
+
+}
+ul li a:hover{
+    color: rgb(192, 0, 0);
+}
+footer{
+    background-color: #040404;
+    opacity: 0.8;
+    color: white;
+}
+.active{
+    color: rgb(192, 0, 0);
+    border-bottom: 3px solid rgb(192, 0, 0);
+    transform: translateX(-10px);
+}

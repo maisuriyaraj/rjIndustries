@@ -1,0 +1,43 @@
+.container{
+    padding: 30px;
+    animation: fadeIn 0.7s;
+}
+.resume{
+    width: 100%;
+    background-color: azure;
+    margin-top: 30px;
+}
+.first{
+    font-size: 30px;
+    font-weight: 700;
+}
+.last{
+    font-size: 30px;
+    font-weight: 200;
+}
+.em{
+    text-decoration: none;
+    color: black;
+}
+.separator {
+    height: 10px;
+    display: inline-block;
+    border-left: 2px solid #999;
+    margin: 0px 10px;
+}
+.detail-heading{
+    letter-spacing: 2px;
+    color: #54AFE4;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.resume{
+    padding: 10px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+}
+@keyframes fadeIn{
+    0% {opacity: 0;transform: translateY(100px);}
+    100% {opacity: 1;transform: translateY(0px);}
+}

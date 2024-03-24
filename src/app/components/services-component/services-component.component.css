@@ -1,0 +1,83 @@
+.container{
+    animation:fadeIn 0.7s;
+}
+img{
+    border-radius: 10px;
+}
+.card{
+    background-color: #151515;
+    box-shadow: 2px,8rem,1rem rgba(0, 0, 0, .025);
+    max-width: 100%;
+    border:1px solid #fff;
+    border-radius: 10px;
+    width: 100%;
+    animation: fadeIn 1s;
+}
+.card_publication{
+    position: relative;
+    height: 20rem;
+    overflow: hidden;
+}
+.card_publication img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform .5s;
+}
+.card_publication>div{
+    /* background:linear-gradient(to right bottom,rgba(255,119,48,.8),rgba(255,185,0,.8)); */
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    inset: 0;
+    padding: 1rem;
+}
+.card_author{
+    margin-bottom: .5rem;
+}
+.card_info{
+    position: relative;
+    padding: 2rem 3rem;
+}
+.card_title{
+    font-size: 3rem;
+}
+.card_subtitle{
+    display: inline-block;
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #a2a2a2;
+    margin-bottom: 1rem;
+}
+.card_cta{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff7730;
+    margin-top: 2rem;
+}
+.card_cta span{
+    display: inherit;
+    transition: transform .5s;
+
+}
+
+@media screen and (min-width:75.5em) {
+    .card{
+        display: grid;
+        grid-auto-flow: column;
+        max-width: 75rem;
+    }
+    .card_publication{
+        width: 25rem;
+        height: initial;
+    }
+}
+@keyframes fadeIn{
+    0% {opacity: 0;transform: translateY(100px);}
+    100% {opacity: 1;transform: translateY(0px);}
+}

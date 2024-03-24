@@ -1,0 +1,41 @@
+<div class="container mt-5" data-aos="fade-up" data-aos-duration="3000">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4 mt-4" *ngFor="let d of jsondata;let i = index">
+        <div class="card">
+          <div class="overflow-hidden">
+            <video [src]="d.url"></video>
+              <div class="my-3">
+                <button (click)="OpenModal(d)" class="btn-view-video" data-bs-toggle="modal" data-bs-target="#exampleModal">View Video</button>
+                <div style="padding: 5px;" [id]="d.desc_id">
+                  <h4 class="text-light">{{ d.tit }}</h4>
+                  <p class="text-light">
+                  This Website made by Using Latest techonologies like
+                  Html5,CSS,bootstrap 4 and 5 and Javascript <br />This website is
+                  Full on Mobile friendly website.In This project Uses New
+                  technologies Like AJAX,JSON,XML
+                </p>  
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="exampleModal" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">{{videoTitle}}</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <video [src]="video_url" autoplay controls></video>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>

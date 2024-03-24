@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+nav{
+  border-bottom: 0.4px solid rgb(155, 155, 155);
+}
+
+.logo{
+  font-family: 'Audiowide', cursive;
+  color: white;
+}
+#brand{
+  font-weight: 600;
+}
+#navbarSupportedContent ul li{
+  font-size: 20px;
+  font-weight: 400;
+}
+#navbarSupportedContent ul li a{
+  color:white;
+  font-size: 15px;
+}
+#navbarSupportedContent ul li:hover{
+  border-bottom: 1px solid #fff;
+  font-weight: 600;
+  transition: 0.4s;
+}
+.activex{
+  border-bottom: 1px solid #fff;
+  font-weight: 600;
+}
+#nav{
+  background-color: #040404;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+.mobile-view{
+  display: none;
+}
+
+.navbar-toggler{
+  background-color: #040404;
+  color: white;
+  border: 1px solid white;
+  border-radius: 7px;
+}
+
+.navbar-toggler span{
+  color: white !important;
+}
+
+@media screen and (max-width:991px) {
+    #navbarSupportedContent{
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: #040404;
+      height: 100vh;
+      overflow-x: hidden;
+      transform-origin: left;
+      transition: 0.5s;
+      width: 0px;
+    }
+
+    #navbarSupportedContent ul li a{
+      display: block;
+    }
+    .mobile-view{
+      font-size: 22px !important;
+      letter-spacing: 2px ;
+    }
+    #logo{
+      margin-top: 10px !important;
+    }
+}
