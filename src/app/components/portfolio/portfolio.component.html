@@ -1,4 +1,4 @@
-<div class="container mt-5" data-aos="fade-up" data-aos-duration="3000">
+<div class="container mt-5 pb-5" data-aos="fade-up" data-aos-duration="1000">
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-4 mt-4" *ngFor="let d of jsondata;let i = index">
@@ -10,10 +10,7 @@
                 <div style="padding: 5px;" [id]="d.desc_id">
                   <h4 class="text-light">{{ d.tit }}</h4>
                   <p class="text-light">
-                  This Website made by Using Latest techonologies like
-                  Html5,CSS,bootstrap 4 and 5 and Javascript <br />This website is
-                  Full on Mobile friendly website.In This project Uses New
-                  technologies Like AJAX,JSON,XML
+                    {{d.tech}}
                 </p>  
                 </div>
               </div>

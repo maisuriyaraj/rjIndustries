@@ -19,7 +19,6 @@ import { NgxSpinnersModule } from "ngx-spinners"
 import { NgxSpinnerComponent,NgxSpinnerModule } from 'ngx-spinner';
 
 
-
 @NgModule({
   declarations: [
     AppComponent,

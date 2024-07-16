@@ -1,9 +1,12 @@
 [
-    {"url":"./assets/e-commerce.mp4","tit":"E-commerce Website","desc_id":"o1"},
-    {"url":"./assets/collage_wd-2.mp4","tit":"Collage Website","desc_id":"o2"},
-    {"url":"./assets/collage_website.mp4","tit":"Collage Management","desc_id":"o3"},
-    {"url":"./assets/dailyquiz_com.mp4","tit":"Quiz and Lerning site","desc_id":"o4"},
-    {"url":"./assets/finance_website.mp4","tit":"Finance Website","desc_id":"o5"},
-    {"url":"./assets/lerning_page.mp4","tit":"Learning website","desc_id":"o6"},
-    {"url":"./assets/movie_ticket_booking.mp4","tit":"Movie ticket booking system","desc_id":"o7"}
+    {"url":"./assets/e-commerce.mp4","tit":"E-commerce Website","desc_id":"o1","tech":"Angular"},
+    {"url":"./assets/collage_wd-2.mp4","tit":"Collage Website","desc_id":"o2","tech":"HTML/CSS/Javascript"},
+    {"url":"./assets/collage_website.mp4","tit":"Collage Management","desc_id":"o3","tech":"HTML/CSS/Javascript"},
+    {"url":"./assets/dailyquiz_com.mp4","tit":"Quiz and Lerning site","desc_id":"o4","tech":"HTML/CSS/Javascript"},
+    {"url":"./assets/finance_website.mp4","tit":"Finance Website","desc_id":"o5","tech":"HTML/CSS/Javascript/Bootstrap"},
+    {"url":"./assets/lerning_page.mp4","tit":"Learning website","desc_id":"o6","tech":"HTML/CSS/Javascript/Bootstrap"},
+    {"url":"./assets/movie_ticket_booking.mp4","tit":"Movie ticket booking system","desc_id":"o7","tech":"ReactJS"},
+    {"url":"./assets/QuickLending.mp4","tit":"QuickLending","desc_id":"o7","tech":"Angular16"},
+    {"url":"./assets/Glozic.mp4","tit":"Glozic(Low code no Code)","desc_id":"o7","tech":"ReactJS"},
+    {"url":"./assets/graphCommunity.mp4","tit":"Graph Community","desc_id":"o7","tech":"ReactJS,NextJS,MongoDB,Firebase"}
 ]
